@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego de Laberinto con Obstáculos</title>
+    <link rel="stylesheet" href="/SRC/styles/main.css">
+</head>
+<body>
+    <div class="laberinto-container">
+        <div class="controls">
+            <button class="ruta-btn" onclick="verRuta()">Ver Ruta Más Corta</button>
+            <button class="reset-btn" onclick="resetJuego()">Reiniciar Juego</button>
+        </div>
+        <div id="laberinto" class="laberinto"></div>
+        <div id="mensaje" class="mensaje"></div>
+    </div>
+    <script src="/SRC/controllers/controller.js" type="module"></script>
+</body>
+</html>
+
+
